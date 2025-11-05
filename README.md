@@ -1,5 +1,18 @@
-# godot-cpp template
-This repository serves as a quickstart template for GDExtension development with Godot 4.0+.
+## Foliage Tool Plugin
+
+####
+A Godot Plugin to streamline foliage placement
+
+-------
+
+Started Nov 4, 2025 by Wildcat Game Studios at UKY
+
+
+Roadmap:
+
+- Foliage Placement
+
+------
 
 ## Contents
 * An empty Godot project (`demo/`)

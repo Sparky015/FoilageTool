@@ -45,6 +45,20 @@ project(godot-cpp-template
 
 add_library(${LIBNAME} SHARED)
 
+####################################################################################
+####################################################################################
+
+                                # Edited Part
+
+target_include_directories(${LIBNAME} PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/godot-cpp/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/godot-cpp/gen/include
+        ${CMAKE_CURRENT_SOURCE_DIR}/godot-cpp/gdextension
+)
+
+####################################################################################
+####################################################################################
+
 target_sources(${LIBNAME}
     PRIVATE
     src/register_types.cpp
